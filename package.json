@@ -1,0 +1,27 @@
+{
+  "name": "rektive",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build",
+    "prepublishOnly": "npm run build && npm prune --production",
+    "start": "live-server ./templates/example"
+  },
+  "keywords": [
+    "rektive",
+    "reactivity",
+    "proxy",
+    "javascript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "description": "A simple reactivity library using JavaScript proxies.",
+  "devDependencies": {
+    "vite": "^5.3.3",
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    
+  }
+}
